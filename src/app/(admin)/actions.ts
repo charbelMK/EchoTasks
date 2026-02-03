@@ -37,6 +37,7 @@ export async function createClientUser(formData: FormData) {
     })
 
     if (createError) {
+        console.error('User Request Error:', JSON.stringify(createError, null, 2))
         throw new Error(createError.message)
     }
 
