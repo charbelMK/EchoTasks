@@ -53,12 +53,17 @@ export default async function AdminLayout({
             {/* Sidebar (Desktop) */}
             <aside className="hidden md:flex md:w-72 md:flex-col fixed inset-y-0 z-50 bg-[#1e293b]">
                 {/* Logo Area */}
-                <div className="flex items-center h-16 flex-shrink-0 px-6 bg-[#0f172a]">
-                    <div className="flex items-center gap-2">
-                        <div className="h-8 w-8 bg-indigo-500 rounded-lg flex items-center justify-center">
-                            <span className="text-white font-bold text-xl">E</span>
-                        </div>
-                        <span className="text-white font-bold text-lg tracking-tight">ECHO TASKS</span>
+                <div className="flex items-center h-24 flex-shrink-0 px-6 bg-[#0f172a]">
+                    <div className="w-full bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-3 shadow-lg flex items-center justify-center group hover:bg-white/10 transition-all duration-300">
+                        <Link href="/admin">
+                            <Image
+                                src="/logo-v3.png"
+                                alt="EchoTasks"
+                                width={220}
+                                height={72}
+                                className="h-12 w-auto object-contain"
+                            />
+                        </Link>
                     </div>
                 </div>
 

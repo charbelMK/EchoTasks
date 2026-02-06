@@ -5,7 +5,7 @@ const phases = [
     {
         id: 1,
         title: 'PHASE 1: CLARIFY & BLUEPRINT',
-        duration: 'Week 1',
+
         goal: 'To achieve absolute alignment and create a crystal-clear plan of action.',
         steps: [
             {
@@ -39,7 +39,7 @@ const phases = [
     {
         id: 2,
         title: 'PHASE 2: EXECUTE & VERIFY',
-        duration: 'Ongoing',
+
         goal: 'To become your eyes and ears on the ground, providing live, verifiable proof.',
         steps: [
             {
@@ -65,7 +65,7 @@ const phases = [
     {
         id: 3,
         title: 'PHASE 3: VALIDATE & CONCLUDE',
-        duration: 'Final Week',
+
         goal: 'To independently verify quality and formally close the project.',
         steps: [
             {
@@ -89,7 +89,7 @@ const phases = [
     {
         id: 4,
         title: 'PHASE 4: STEWARD & SUSTAIN',
-        duration: 'Ongoing Relationship',
+
         goal: 'To transition from service provider to long-term steward.',
         steps: [
             {
@@ -137,7 +137,6 @@ export default function HowItWorksPage() {
                         <div key={phase.id} className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
                             <div className="bg-gray-50 px-6 py-4 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between">
                                 <div>
-                                    <span className="text-accent font-bold tracking-wider text-sm uppercase">{phase.duration}</span>
                                     <h2 className="text-2xl font-bold text-gray-900 mt-1">{phase.title}</h2>
                                 </div>
                                 <div className="mt-2 sm:mt-0 max-w-md text-sm text-gray-500 italic">

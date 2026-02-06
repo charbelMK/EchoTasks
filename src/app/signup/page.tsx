@@ -11,14 +11,14 @@ export default function SignupPage() {
     return (
         <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 py-12 sm:px-6 lg:px-8">
             <div className="sm:mx-auto sm:w-full sm:max-w-md">
-                <div className="flex justify-center">
-                    <Link href="/">
+                <div className="flex justify-center mb-6">
+                    <Link href="/" className="bg-white p-4 rounded-xl shadow-lg border border-gray-100 transform transition-transform hover:scale-105">
                         <Image
-                            src="/logo.png"
+                            src="/logo-v3.png"
                             alt="EchoTasks"
-                            width={150}
-                            height={50}
-                            className="h-12 w-auto"
+                            width={220}
+                            height={72}
+                            className="h-14 w-auto"
                         />
                     </Link>
                 </div>

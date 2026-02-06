@@ -10,11 +10,11 @@ export default function Header() {
                         <Link href="/">
                             <span className="sr-only">EchoTasks</span>
                             <Image
-                                src="/logo.png"
+                                src="/logo-v3.png"
                                 alt="EchoTasks Logo"
-                                width={120} // Adjust as needed
-                                height={40} // Adjust as needed
-                                className="h-10 w-auto"
+                                width={200} // Adjusted for visibility
+                                height={60}
+                                className="h-14 w-auto transition-transform duration-300 hover:scale-105"
                             />
                         </Link>
                         <div className="hidden ml-10 space-x-8 lg:block">

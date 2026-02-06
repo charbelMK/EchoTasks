@@ -252,7 +252,7 @@ export default async function ClientProjectDetailPage({ params }: { params: Prom
                                 <p className="text-sm text-indigo-700 mt-1">Have a question about this project or a specific milestone?</p>
                             </div>
                             <a
-                                href="mailto:support@echotasks.com"
+                                href="mailto:info@echotask.co.ke"
                                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 shadow-sm"
                             >
                                 <MessageSquare className="mr-2 h-4 w-4" />

@@ -10,11 +10,11 @@ export default function Footer() {
                     <div className="col-span-1 md:col-span-1">
                         <Link href="/">
                             <Image
-                                src="/logo.png"
+                                src="/logo-v3.png"
                                 alt="EchoTasks Logo"
-                                width={120}
-                                height={40}
-                                className="h-8 w-auto mb-4"
+                                width={200}
+                                height={60}
+                                className="h-12 w-auto mb-4"
                             />
                         </Link>
                         <p className="text-gray-500 text-sm mb-4">
